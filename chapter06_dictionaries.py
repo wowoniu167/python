@@ -29,3 +29,68 @@ print(alien_0)
 for k , v in alien_0.items():
     print("\nkey:" + k )
     print("value:" + v.__str__() )
+#遍历字典所有键
+for key1 in alien_0.keys():#遍历字典时，会默认遍历所有的键，因此，如果将上述代码中的for name in favorite_
+#languages.keys():替换为for name in favorite_languages:，输出将不变
+    print(key1)
+#根据键获取值
+    print(alien_0[key1])
+
+#按顺序遍历键
+for key2 in sorted(alien_0.keys()): #sorted函数获取了字典的副本
+    print(key2)
+
+#遍历值
+for value1 in alien_0.values():
+    print(value1)
+
+print("使用set 去除重复值")
+for value2 in set(alien_0.values()):
+    print(value2)
+
+#嵌套 字典列表
+print("字典列表")
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+
+aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+    print(alien)
+
+#列表字典
+# 存储所点比萨的信息
+pizza = {
+        'crust': 'thick',
+        'toppings': ['mushrooms', 'extra cheese'],
+        }
+# 概述所点的比萨
+print("You ordered a " + pizza['crust'] + "-crust pizza " +
+    "with the following toppings:")
+
+for topping in pizza['toppings']:
+    print("\t" + topping)
+#字典中的字典
+print("字典中的字典")
+users = {
+         'aeinstein': {
+             'first': 'albert',
+             'last': 'einstein',
+             'location': 'princeton',
+             },
+
+         'mcurie': {
+             'first': 'marie',
+             'last': 'curie',
+             'location': 'paris',
+             },
+         }
+
+for username, user_info in users.items():
+    print("\nUsername: " + username)
+    full_name = user_info['first'] + " " + user_info['last']
+    location = user_info['location']
+
+    print("\tFull name: " + full_name.title())
+    print("\tLocation: " + location.title())
+#字典中的字典，尽量保持字典结构相同，这样处理更简单

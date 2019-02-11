@@ -25,3 +25,27 @@ my_foods = ['pizza', 'falafel', 'carrot cake']
 friend_foods = my_foods[:]
 print(my_foods);
 print(friend_foods);
+#元组看起来犹如列表，但使用圆括号而不是方括号来标识。定义元组后，就可以使用索引来
+#访问其元素，就像访问列表元素一样
+dimensions = (200, 50)
+#元组的元素不能修改值
+#dimensions[0] = 250   #试图修改元组元素，报错“TypeError: 'tuple' object does not support item assignment”
+print(dimensions[0])
+
+#遍历元组的元素，同列表使用for
+for dimension in dimensions:
+    print(dimension)
+
+#修改元组变量
+#虽然不能修改元组的元素，但可以给存储元组的变量赋值。因此，如果要修改前述矩形的尺
+#寸，可重新定义整个元组：
+
+dimensions = (200, 50)
+print("Original dimensions:")
+for dimension in dimensions:
+    print(dimension)
+
+dimensions = (400, 100)
+print("\nModified dimensions:")
+for dimension in dimensions:
+    print(dimension)

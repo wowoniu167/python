@@ -1,8 +1,8 @@
-import  pygame
-from pygame.sprite import  Scripts
+import pygame
+from pygame.sprite import Sprite
 class Bullet():
     """一个对子弹进行管理的类"""
-    def __int__(self,ai_settings,screen,ship):
+    def __int__(self,ai_settings, screen, ship):
         """在飞船所在的位置创建子弹"""
         super(Bullet,self).__init__()
         self.screen = screen
@@ -15,7 +15,7 @@ class Bullet():
         self.speed_factor = ai_settings.bullet_speed_factor
     def update(self):
         """向上移动子弹"""
-        self.y = -= self.speed_factor
+        self.y -= self.speed_factor
         self.rect.y = self.y
     def draw_bullet(self):
         """在屏幕上打印子弹"""

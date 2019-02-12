@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d5dd3b1-75ba-4952-a7c8-de81b986c500" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/基础学习/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/外星人入侵/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/外星人入侵/alien_invasion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/外星人入侵/test.py" afterDir="false" />
+    <list default="true" id="5d5dd3b1-75ba-4952-a7c8-de81b986c500" name="Default Changelist" comment="规范模块">
+      <change afterPath="$PROJECT_DIR$/外星人入侵/game_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/外星人入侵/images/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/外星人入侵/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/外星人入侵/ship.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/Hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter03_list01.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter03_list01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04_list02.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter04_list02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05_if.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter05_if.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter06_dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter06_dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter07_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter07_while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter08_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter08_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter09_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10_file&amp;exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/chapter10_file&amp;exception.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_work/file_test" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/python_work/file_test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_work/write_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/python_work/write_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_work/write_file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/基础学习/python_work/write_file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外星人入侵/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/外星人入侵/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/外星人入侵/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/外星人入侵/test.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/外星人入侵/alien_invasion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" lean-forward="true" selection-end-line="2" />
+            <state relative-caret-position="266">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/外星人入侵/game_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -41,14 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/外星人入侵/alien_invasion.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/外星人入侵/ship.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/外星人入侵/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -68,6 +75,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\admin\PycharmProjects\python\python_work</dir>
+      <dir>C:\Users\admin\PycharmProjects\python\外星人入侵\images</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -84,6 +92,9 @@
         <option value="$PROJECT_DIR$/外星人入侵/test.py" />
         <option value="$PROJECT_DIR$/外星人入侵/PyGame.py" />
         <option value="$PROJECT_DIR$/外星人入侵/alien_invasion.py" />
+        <option value="$PROJECT_DIR$/外星人入侵/settings.py" />
+        <option value="$PROJECT_DIR$/外星人入侵/ship.py" />
+        <option value="$PROJECT_DIR$/外星人入侵/game_functions.py" />
       </list>
     </option>
   </component>
@@ -112,6 +123,12 @@
               <item name="python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="外星人入侵" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="外星人入侵" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ship.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -303,27 +320,43 @@
       <option name="project" value="LOCAL" />
       <updated>1549960109551</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="规范模块">
+      <created>1549961825588</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549961825588</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3267974" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32569557" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -333,7 +366,8 @@
     <MESSAGE value="while循环" />
     <MESSAGE value="函数的使用" />
     <MESSAGE value="学习类&amp;文件&amp;异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="学习类&amp;文件&amp;异常处理" />
+    <MESSAGE value="规范模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="规范模块" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter03_list01.py">
@@ -421,12 +455,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/外星人入侵/alien_invasion.py">
+    <entry file="file://$PROJECT_DIR$/外星人入侵/images/ship.bmp">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/外星人入侵/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/外星人入侵/ship.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/外星人入侵/game_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/外星人入侵/alien_invasion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

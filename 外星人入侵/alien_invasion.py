@@ -17,6 +17,8 @@ def run_game():
     alien = Alien(ai_settings, screen)
     #创建一个子弹组
     bullets = Group()
+    aliens = Group()
+    gf.create_fleet(ai_settings, screen, ship, aliens)
     # 开始游戏的主循环
     while True:
         # 监视键盘和鼠标事件
